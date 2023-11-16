@@ -36,9 +36,9 @@ function list_users_with_read_access {
         echo "$collaborators"
     fi
 }
-function helper{
+function helper {
     exp_cmd_args=2
-    if[$# -ne exp_cmd_args]; then
+    if [ $# -ne $exp_cmd_args]; then
         echo "please execute the script with required command arguments"
         echo "asd"
         }
